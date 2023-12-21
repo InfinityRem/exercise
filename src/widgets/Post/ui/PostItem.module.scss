@@ -1,0 +1,36 @@
+.container{
+
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 200px;
+  margin-top: 100px;
+  align-items: center;
+
+
+  background-color: #2d2d2d;
+  border-radius: 10px;
+  .number{
+    align-self: start;
+    margin: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  }
+  .postItem__title{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  .postItem_body{
+    margin: 15px;
+    font-size: 20px;
+    color: white;
+  }
+  .button{
+    align-self: end;
+    margin-right: 20px;
+  }
+
+}
